@@ -1,5 +1,6 @@
 import * as React from "react";
 import { TileLayout } from "@progress/kendo-react-layout";
+import DuaChart from "./dua-chart"
 function App(props) {
   const [data, setData] = React.useState([{
     col: 1,
@@ -42,7 +43,7 @@ function App(props) {
     body: <div></div>
   }, {
     header: "Users by Channel",
-    body: <div></div>
+    body: <div><DuaChart /></div>
   }, {
     header: "Conversion Rate",
     body: <div>

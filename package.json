@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "@progress/kendo-react-layout": "latest",
+    "@ant-design/charts": "^1.4.2",
     "@progress/kendo-licensing": "latest",
     "@progress/kendo-react-buttons": "latest",
     "@progress/kendo-react-intl": "latest",
+    "@progress/kendo-react-layout": "latest",
     "@progress/kendo-react-progressbars": "latest",
     "hammerjs": "^2.0.0",
     "react": "16.8.4",
